@@ -1,0 +1,92 @@
+/* Poore page ka background image */
+body {
+    background-image: url("../hyouka.jpg"); /* css folder se ek step upar */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+/* 
+.content {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* Global Nav wrapper */
+#globalNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;     /* sidebar width */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* transparent dark overlay */
+    padding: 20px 15px;
+    box-sizing: border-box;
+    overflow-y: auto; /* scroll if content exceeds */
+}
+
+/* Logo on top */
+#globalNav h1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+#globalNav h1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation lists */
+.globalNavList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.globalNavList li {
+    margin: 12px 0;
+}
+.globalNavList li a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 15px;
+    transition: color 0.3s;
+    display: block;
+    padding: 5px 8px;
+}
+.globalNavList li a:hover {
+    color: #ffcccc; /* hover color */
+}
+
+/* Submenu styling */
+.subMenu > a::after {
+    content: " ▼";   /* arrow */
+    font-size: 10px;
+}
+.subNav {
+    list-style: none;
+    margin: 5px 0 5px 15px;
+    padding: 0;
+    display: none; /* by default hidden */
+}
+.subMenu:hover .subNav {
+    display: block; /* show on hover */
+}
+.subNav li a {
+    font-size: 13px;
+    color: #ccc;
+}
+.subNav li a:hover {
+    color: #fff;
+}
+
+/* Main content */
+.main-content {
+    margin-left: 240px; /* leave space for sidebar */
+    padding: 40px;
+} */
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
