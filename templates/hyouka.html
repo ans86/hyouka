@@ -6,6 +6,7 @@
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/hyouka.css' %}">
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/8d/11/ae/8d11ae0c79f65e3ff3171a30587a9e11.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Hyouka</title>
 </head>
 <body>
@@ -95,6 +96,35 @@
       <li><a href="#">あとがき</a></li>
     </ul>
   </nav>
+
+<div class="sakura-container"></div>
+
+<img id="topTextList" src="{% static 'topTextList.png' %}" alt="TopTextList">
+
+
+
+
+<!-- Script should be here -->
+<script>
+const sakuraImages = [
+  "{% static 'sakura/sakura-0.png' %}",
+  "{% static 'sakura/sakura-1.png' %}",
+  "{% static 'sakura/sakura-2.png' %}",
+  "{% static 'sakura/sakura-3.png' %}",
+  "{% static 'sakura/sakura-4.png' %}",
+  "{% static 'sakura/sakura-5.png' %}"
+];
+
+// tumhara baaki ka animation code yahan
+</script>
+<script src="{% static 'js/sakura.js' %}"></script>
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
 
 </body>
 </html>
